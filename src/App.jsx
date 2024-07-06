@@ -27,7 +27,7 @@ const App = () => {
       );
 
   return (
-    <div >
+    <div className='font-inter'>
       <RouterProvider router={router} />
     </div>
   )
