@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Pic = ({className,href,src,alt}) => {
+const Pic = ({className,href,src,alt,onClick}) => {
   return (
-    <div >
+    <div onClick={onClick}>
       <Link to={href}>
       <picture>
-        <img src={src} alt={alt} className={`${className}`} />
+        <img src={src} alt={alt} className={`${className}`}  />
       </picture>
       </Link>
     </div>
