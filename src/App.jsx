@@ -19,7 +19,6 @@ const App = () => {
       >
         <Route >
           <Route index element={<Home/>} />
-          <Route path='/about' element={<About/>} />
           
         </Route>
       </Route>
