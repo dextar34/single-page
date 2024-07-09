@@ -3,6 +3,8 @@ import Container from './Container'
 import Pic from './layer/Pic'
 import ProductDetails from './layer/ProductDetails'
 import ImageGallery from './layer/ImageGallery'
+import ChooseColor from './layer/ChooseColor'
+
 
 const ProductMenu = () => {
 
@@ -24,6 +26,7 @@ return (
             <div className="right">
                 <p className='text-2xl'>BreadCrumb</p>
                 <ProductDetails productName='Embrace Sideboard' studioName='Teixeira Design Studio'/>
+                <ChooseColor/>
 
             </div>
 
