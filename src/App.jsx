@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import RootLayout from './pages/RootLayout';
-import About from './pages/About';
+import Products from './pages/Products';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -19,6 +19,7 @@ const App = () => {
       >
         <Route >
           <Route index element={<Home/>} />
+          <Route path='/products' element={<Products/>} />
           
         </Route>
       </Route>

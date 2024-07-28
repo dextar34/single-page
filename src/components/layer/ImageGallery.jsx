@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Slider from 'react-slick';
 
 
 const ImageGallery= ({ images }) => {
@@ -20,7 +19,7 @@ return (
             ? 'border-[3px] border-[#3A4980] rounded-2xl object-cover w-full h-full aspect-square'
             : 'rounded-2xl border-[3px] border-transparent object-cover w-full h-full aspect-square'
             }
-            alt={`Thumbnail ${index}`}
+            alt={`Thumbnail ${index+1}`}
             />
             ))}
         </div>

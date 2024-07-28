@@ -12,20 +12,19 @@ return (
 <div className='nav border-b border-[#EDEDED]  py-5 '>
     <Container>
         <div className="main flex justify-between items-center">
-            <div className="left flex gap-x-16">
+            <div className="left flex gap-x-16 items-center">
                 <div className="logo">
-                    <Pic href='/' src={Logo} />
+                    <Pic href='/' src={Logo} className={' ml-10 md:ml-0 mt-2 md:mt-0'} />
                 </div>
                 <div className="navMenu text-base font-medium text-[#1D364D] w-full">
-                    <ul className='flex gap-x-[50px] '>
-                        <List href='/category' item='Category' />
-                        <List href='/brand' item='Brand' />
-                        <List href='/contact' item='Contact' />
-                        <List href='/faq' item='FAQ’s' />
+                    <ul className='flex gap-x-6 md:gap-x-[50px] '>
+                        <List href='/products' item='Products' className={' hover:underline transition-all duration-500'} />
+                        <List href='/brand' item='Brand' className={' hover:underline transition-all duration-500'} />
+                        <List href='/contact' item='Contact' className={' hover:underline transition-all duration-500'} />
                     </ul>
                 </div>
             </div>
-            <div className="userInfo flex justify-between items-center w-[324px]">
+            <div className="userInfo hidden md:flex justify-between items-center w-[324px]">
                 <div className="pic flex gap-x-4">
                     <div className="cart roundIcon w-[50px] h-[50px] rounded-3xl bg-[#F5F1EE] relative">
                         <span className=' absolute -top-[3px] left-7 translate-x-1/2 w-5 h-5 bg-[#1D364D] rounded-xl flex flex-col items-center justify-center gap-2.5 text-white border-[1.5px] border-white '>3</span>
