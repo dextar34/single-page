@@ -1,9 +1,9 @@
 import React from 'react'
 import Container from './Container'
-import Logo from '../../public/images/fashion-hub.jpg'
-import Bag from '../../public/images/bag.png'
-import Bell from '../../public/images/bell.png'
-import People from '../../public/images/people.jpg'
+import Logo from '/images/fashion-hub.jpg'
+import Bag from '/images/bag.png'
+import Bell from '/images/bell.png'
+import People from '/images/people.jpg'
 import Pic from './layer/Pic'
 import List from './layer/List'
 
