@@ -8,6 +8,7 @@ import {
 import Home from './pages/Home';
 import RootLayout from './pages/RootLayout';
 import Products from './pages/Products';
+import Error404 from './pages/Error404';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -15,6 +16,7 @@ const App = () => {
       <Route
         path="/"
         element={<RootLayout/>}
+        errorElement={<Error404/>}
         
       >
         <Route >
