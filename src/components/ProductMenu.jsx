@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Container from './Container'
-import Pic from './layer/Pic'
 import ProductDetails from './layer/ProductDetails'
 import ImageGallery from './layer/ImageGallery'
 import ChooseColor from './layer/ChooseColor'
@@ -9,10 +8,10 @@ import ChooseColor from './layer/ChooseColor'
 const ProductMenu = () => {
 
 const images = [
-    "../../public/images/img5.jpg",
-    "../../public/images/img7.jpg",
-    "../../public/images/img6.jpg",
-    "../../public/images/img8.jpg",
+    "/images/img5.jpg",
+    "/images/img7.jpg",
+    "/images/img6.jpg",
+    "/images/img8.jpg",
 ]
     
     
